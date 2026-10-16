@@ -1,0 +1,33 @@
+# Local game and launcher state must never be published.
+.env
+.env.*
+!.env.example
+accounts*.json
+servers.dat*
+usercache.json
+usernamecache.json
+saves/
+logs/
+crash-reports/
+backups/
+recordings/
+*.jfr
+*.hprof
+*.log
+# Acquire third-party binaries from their authors, not Git history.
+*.jar
+*.jar.disabled
+*.zip
+*.mrpack
+*.exe
+*.dll
+*.so
+*.dylib
+# Generated local packaging and Python state.
+build/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
